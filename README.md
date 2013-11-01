@@ -1,8 +1,9 @@
 BiterTweet-PHP
 ==============
 
-An application for working with twitter API
-This app is developing on Django so it's published for working more on PHP version. 
+An application for working with twitter API.<br/>
+This app is developing on Django so it's published for working more on PHP version. <br/>
+With BiterTweet you can read tweets,post new tweet and favorite a tweet.
 
 ## Libraries ##
 
@@ -29,3 +30,5 @@ In twitter dev center,set your callback url to /oAuth/1/bt_oAuth.php
 ## API ##
 There is some features for using app API.all codes exists in /api folder as well.you can easily create apps in other platforms.
 there is Bitertweet android and java app and it is possible these will be published in future.
+
+
