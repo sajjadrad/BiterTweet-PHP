@@ -49,14 +49,12 @@
 										<div class="menu">
 											<ul>
 												<li>
-													<a href="#">
-														<div class="icon">&#9835;</div>
+													<a onClick="return false" href="#" class="retweet">
 														Reply
 													</a>
 												</li>
 												<li>
-													<a href="#">
-														<div class="icon">&#9829;</div>
+													<a onClick="return false" href="#" class="favorite">
 														Favorite
 													</a>
 												</li>

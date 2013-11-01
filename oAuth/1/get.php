@@ -33,11 +33,6 @@
 			$resp = $twito->get("/statuses/home_timeline.json",array("max_id"=>"$id","count"=>"$count"));
 			return $resp;
 		}
-		function gusertimeline_scince($id,$count,$twito)
-		{
-			$resp = $twito->get("/statuses/home_timeline.json",array("since_id"=>"$id","count"=>"$count"));
-			return $resp;
-		}
 		function gusertimeline($count,$twito)
 		{
 			$resp = $twito->get("/statuses/home_timeline.json",array("count"=>"$count"));

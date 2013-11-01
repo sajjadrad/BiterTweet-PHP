@@ -9,6 +9,7 @@
 				<script type="text/javascript" src="js/script-bt.js"></script>
 				<script type="text/javascript" src="js/ajax/load.js"></script>
 				<script type="text/javascript" src="js/ajax/send.js"></script>
+				<script type="text/javascript" src="js/ajax/favorite.js"></script>
 				<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 				<script type="text/javascript">
 				    if (document.images) {

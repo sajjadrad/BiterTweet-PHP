@@ -29,6 +29,7 @@
 				else if(!$tokenquery and isset($_SESSION['_validToken']))
 					unset($_SESSION['_validToken']);
 				header('Location: home.php');
+				//echo '<META HTTP-EQUIV="Refresh" Content="0; URL=home.php">';
 			}
 			else
 			{

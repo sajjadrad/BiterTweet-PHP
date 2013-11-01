@@ -98,6 +98,7 @@ body
 		border-radius:3px 3px 3px 3px;
 		width:80%;
 		min-width:55%;
+		max-width:80%;
 		min-height:50px;
 		padding:10px;
 	}
@@ -689,12 +690,6 @@ body
 	border: 1px #276d75 solid;
 	overflow:hidden;
 	border-radius:3px 3px 3px 3px;
-}
-.tweet-counter
-{
-	text-align: left;
-	color:red;
-	font-size: 15px;
 }
 .cl
 {

@@ -59,6 +59,7 @@
 						$tweetTxt[$i]=make_tweet_linkable($timeline[$i]['retweeted_status']['text']);
 						$tweetTxt[$i]=make_mention_linkable($timeline[$i]['retweeted_status']['text']);
 					}
+
 				}
 				$smarty->assign("timeline",$timeline,true);
 				$smarty->assign("tweetTxt",$tweetTxt,true);

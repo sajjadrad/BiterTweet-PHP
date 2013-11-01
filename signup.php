@@ -229,7 +229,7 @@
 							R::exec("update bt_token set bt_use=1 where bt_tokenstr='$_token'");
 							$user=R::dispense('bt_user');
 							$user->bt_em=$_email;
-							$user->bt_psw=$_pass;
+							$user->bt_psw=sha1($_pass);
 							$user->bt_finm=$_finame;
 							$user->bt_fanm=$_faname;
 							$user->bt_sx=$_sex;
