@@ -1,0 +1,187 @@
+body
+{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	background-color:#44c8d7;
+	font-family:arial;
+	top:0px;
+	/*28565b*/
+}
+#wrapper
+{
+	width:530px;
+	margin:0px auto;
+}
+#timer
+{
+	width:520px;
+	height:80px;
+	background-color:#fff;
+	padding:10px;
+	text-align:center;
+	border-radius:4px 4px 4px 4px;
+}
+#content
+{
+	width:600px;
+	/*background-color:#fff;*/
+}
+#content #header
+{
+	width:527px;
+	height:164px;
+	background-image:url('../img/day_head.jpg');
+	background-repeat:no-repeat;
+
+}
+
+#content #body
+{
+	width:527px;
+	background-image:url('../img/day_body.jpg');
+	background-repeat:repeat-y;
+
+}
+#content #footer
+{
+	width:527px;
+	height:15px;
+	background-image:url('../img/day_bottom.jpg');
+	background-repeat:no-repeat;
+}
+#formContent
+{
+	width:460px;
+	padding:10px;
+	margin:0px auto;
+	text-align:left;
+}
+#formContent .title
+{
+	font-size:14px;
+	font-weight:bold;
+	color:#047582;
+}
+#formContent hr
+{
+	border: 0;
+	width: 460px;
+	color: #ed7c00;
+	background-color: #ed7c00;
+	height: 2px;
+}
+#formContent .block
+{
+	margin-top:30px;
+}
+#formContent .row
+{
+	margin-top:5px;
+	font-size:13px;
+}
+a
+{
+	text-decoration:none;
+}
+#formContent .opt
+{
+	display:inline-block;
+	width:140px;
+}
+#formContent .val
+{
+	display:inline-block;
+}
+#formContent .status
+{
+	display:inline-block;
+	font-weight:bold;
+	margin-left:10px;
+}
+#formContent #wait
+{
+	background-image:url('../img/loading.gif');
+	display:none;
+	height:10px;
+	width:50px;
+	float:right;
+	margin-top:6px;
+}
+#formContent #message
+{
+	margin:20px auto 20px;
+	padding:10px;
+	text-align:center;
+	width:460px;
+}
+#formContent #message input
+{
+}
+#page-footer
+{
+	position:absolute;
+	bottom:10px;
+	left:0px;
+	width:100%;
+	height:50px;
+}
+#page-footer a
+{
+	text-decoration:none;
+	width:42px;
+	height:42px;
+}
+#page-footer .item
+{
+	float:left;
+	margin-left:10px;
+	cursor:pointer ;
+}
+.item #ques
+{
+	background-image:url('../img/qs_b.jpg');
+	width:42px;
+	height:42px;
+}
+.item  #ques:hover
+{
+	background-position: 0px 42px;
+	cursor:pointer;
+}
+.item  #info
+{
+	background-image:url('../img/info.jpg');
+	width:42px;
+	height:42px;
+}
+
+.item  #info:hover
+{
+	background-position: 0px 42px;
+	cursor:pointer;
+}
+#page-footer #cr
+{
+	float:right;
+	font-size:12px;
+	margin-right:10px;
+}
+#des
+{
+	z-index:999999;
+	text-align:left;
+	font-size:12px;
+	background-color:#adf1f9;
+	width:200px;
+	padding:3px;
+	position:absolute;
+	visibility:hidden;
+	border: 1px #276d75 solid;
+	overflow:hidden;
+	border-radius:3px 3px 3px 3px;
+}
+.cl
+{
+	clear:both;
+}
