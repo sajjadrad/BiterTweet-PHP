@@ -32,3 +32,11 @@ There is some features for using app API.all codes exists in /api folder as well
 there is Bitertweet android and java app and it is possible these will be published in future.
 
 
+#Contributing
+Start developing and send pull request.
+
+
+#License
+
+Licensed under the Apache License, Version 2.0 [http://www.apache.org/licenses/LICENSE-2.0.html]
+
